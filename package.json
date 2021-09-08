@@ -1,0 +1,26 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "MERN App checkpoint",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bserver\u001b[C\u001b[D.js)\u001b[2~",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "cd client && npm start",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "Donia BR",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "concurrently": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.3",
+    "nodemon": "^2.0.12",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
